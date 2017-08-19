@@ -1,17 +1,17 @@
 body {background: #ccc url(../images/bg.png); border-top: 3px solid #000}
 .row {width: 960px}
 .page_wrap {margin: 25px auto 25px; border-radius: 3px; background: #FFF; box-shadow: 0 1px 3px rgba(34, 25, 25, 0.4)}
-.header_nav {background: #f8f8f8; margin-top: 25px; margin-bottom: 25px}
+.header_nav {background: #ddd6d6; margin-top: 25px; margin-bottom: 25px}
 h1,h2,h3,h4 {font-family:'Verdana',sans-serif; font-weight: normal}
 .heading_dots {background: url(../images/heading_dots_grey.png) repeat-x center}
 .heading_dots_grey {background: url(../images/heading_dots_grey.png) repeat-x center}
-.heading_center_bg {background:#FFF; padding:0 10px}
+.heading_center_bg {background:#FFF; padding:0 10px; font-family: cursive }
 .heading_supersize {font-size: 74px; text-align:center; font-weight: normal; line-height: normal; margin:0 0 40px}
 .nav-bar {margin-top: 0; background: none}
-.nav-bar > li:first-child > a:first-child {font-size: 20px; text-transform: uppercase; padding:0px 275px 0px 15px}
+.nav-bar > li:first-child > a:first-child {font-size: 30px; text-transform: uppercase; padding:0px 150px 0px 15px; font-weight: bold}
 .nav-bar > li {border: 0; padding-top: 10px; padding-left:20px; font-family: cursive ; letter-spacing: 1px}
-.nav-bar > li > img:first-child {padding-right: 10px}
-.nav-bar > li > a:first-child {font-size: 16px; padding: 5px 30px}
+.nav-bar > li > img:first-child {padding-right: 10px; padding-top: 10px}
+/* .nav-bar > li > a:first-child {font-size: 16px; padding: 5px 30px} */
 .nav-bar > li:last-child {border: 0}
 .nav-bar > li.active:hover { background: #F8F8F8; cursor: default; }{}
 .nav-bar > li:hover { background: #F8F8F8; color: #000;
@@ -21,7 +21,7 @@ h1,h2,h3,h4 {font-family:'Verdana',sans-serif; font-weight: normal}
         -o-transition: all .2s ease-in-out;
         transition: all .2s ease-in-out;
 }
-.nav-bar > li > a { color: #000; font-size:16px}
+.nav-bar > li > a { color: #000; font-size:16px;}
 .nav-bar > li > a:hover { color: #000;}
 .nav-bar > li.has-flyout > a:first-child:after { content: ""; display: block; width: 0; height: 0; border: solid 5px; border-color: #848484 transparent transparent transparent; position: absolute; right: 20px; top: 20px; }
 .nav-bar > li.has-flyout > a:hover:first-child:after { content: ""; display: block; width: 0; height: 0; border: solid 5px; border-color: #848484 transparent transparent transparent; position: absolute; right: 20px; top: 20px; }
