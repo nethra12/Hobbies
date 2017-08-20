@@ -43,3 +43,7 @@ ul.flyout li a:hover, .nav-bar li ul li a:hover { background: #f4f4f4; color: #0
         -o-transition: all .2s ease-in-out;
         transition: all .2s ease-in-out;
 		}
+.footer-bar > li:first-child {padding:10px 10px 10px 350px}
+.footer-bar > li {border: 0; padding: 10px 10px; font-family: cursive ; letter-spacing: 1px}
+.footer-bar > li:first-child > a:first-child {font-size: 30px; text-transform: uppercase; padding:0px 0px; font-weight: bold}
+.footer-bar > li> a:first-child {font-size: 30px; text-transform: uppercase; padding:0px 0px; font-weight: bold}
