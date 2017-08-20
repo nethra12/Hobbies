@@ -1,4 +1,4 @@
-body {background: #ccc url(../images/bg.png); border-top: 3px solid #000}
+.body-background {background: #ccc url(../images/bg.png); border-top: 3px solid #000}
 .row {width: 960px}
 .page_wrap {margin: 25px auto 25px; border-radius: 3px; background: #FFF; box-shadow: 0 1px 3px rgba(34, 25, 25, 0.4)}
 .header_nav {background: #ddd6d6; margin-top: 25px; margin-bottom: 25px}
@@ -63,5 +63,6 @@ ul.flyout li a:hover, .nav-bar li ul li a:hover { background: #f4f4f4; color: #0
   left:0;margin: auto;}
 .gallery-content {width:100%; height:100%; padding: 10px 10px}
 .col-last-element {padding:1px}
-#myFrame {width:100%}
-.two-columns {width:100%}
+#myFrame {width:100%; height:100%}
+.each-columns {float:left; min-height:1px;padding:0 11px;position:relative;}
+.first-row {width:100%; padding: 20px 0px 20px 0px; height:250px}

@@ -4,7 +4,7 @@
     <link rel="stylesheet" href="stylesheets/foundation.min.css">
     <link rel="stylesheet" href="stylesheets/main.css">
   </head>
-  <body>
+  <body class="body-background">
     <div class="row page_wrap">
       <div class="twelve columns">
         <!--Header content-->
@@ -26,13 +26,14 @@
         <div class="wrapper">
           <div class="wrapper-left">
             <ul class="sub-menu">
-              <li class="sub-element"><a href="#paintings">Paintings</a></li>
-              <li class="sub-element"><a href="#drawings">Drawings</a></li>
+              <li class="sub-element"><a href="#" onClick='document.getElementById("myFrame").src="paintings.html";'>Paintings</a></li>
+              <li class="sub-element"><a href="#" onClick='document.getElementById("myFrame").src="drawings.html";'>Drawings</a></li>
               <li class="sub-element"><a href="#">abc</a></li>
               <li class="sub-element"><a href="#">xyz</a></li>
             </ul>
           </div>
           <div class="wrapper-right">
+            <!--<iframe src="paintings.html" frameborder="0" scrolling="yes" id="myFrame"/>-->
             <iframe src="paintings.html" frameborder="0" scrolling="yes" id="myFrame"/>
           </div>
         </div>
